@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url("images/fg.png");
+}
+
+
+#game{
+  width: 1700px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  overflow: hidden;
+  background-image: url("images/bg.png");
+}
+#block{
+  width: 50px;
+  height: 500px;
+  background-color: black;
+  background-image: url("images/pipeNorth.png");
+  position: relative;
+  left: 1700px;
+  animation: block 4s infinite linear;
+}
+@keyframes block{
+  0%{left:1700px}
+  100%{left:-50px}
+}
+#hole{
+  width: 50px;
+  height: 150px;
+  background-color:rgb(12, 146, 170);
+  position: relative;
+  left: 1700px;
+  top: -500px;
+  animation: block 4s infinite linear;
+}
+#character{
+  width: 100px;
+  height: 100px;
+  background-image: url("images/bbr.png");
+  position: absolute;
+  top: 100px;
+}

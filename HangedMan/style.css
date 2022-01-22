@@ -1,0 +1,96 @@
+
+body{
+  background-color: #F6DAD9;
+  color: brown;
+}
+
+.container{
+  text-align: center;
+}
+
+#hangmanPic{
+  width: 300px;
+  height: 550px;
+}
+
+#container {
+    background-image:url('images/gover.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    width: 600px;
+    height: 650px;
+    top: 0;
+    position: absolute;
+    visibility: hidden;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#container:target {
+    visibility: hidden;
+    display: block;
+}
+#close{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(236, 166, 73);
+  border: none;
+  color: rgb(158, 1, 1);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 550px;
+
+  margin-right: -40px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  border-style: none;
+
+}
+#reset{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(96, 187, 111);
+  border: none;
+  color: rgb(158, 1, 1);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 500px;
+
+  margin-right: 280px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  border-style: none;
+
+}
+
+#wordSpotlight{
+  font-size: 40px;
+}
+
+#win{
+    background-image:url('images/win.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    width: 650px;
+    height: 650px;
+    top: 0;
+    position: absolute;
+    visibility: hidden;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+#win:target {
+    visibility: hidden;
+    display: block;
+}

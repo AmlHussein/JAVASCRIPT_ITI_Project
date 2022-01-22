@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<title>Hangman</title>
+<script src='hangman.js'></script>
+</head>
+<body onload="reset()" >
+    <div class="container">
+         <h1 class="text-center">Hangman</h1>
+        <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div><br>
+        <div class="text-center">
+          <span>Guess the Programming Language:</span><br>
+          <img id='hangmanPic' src="./images/0.png" alt="">
+          <br>        <br>        <br>
+          <span id="wordSpotlight">The word to be guessed goes here</span>
+          <br>   <br> <br>
+          <div id="keyboard"></div>
+          <br>
+        </div> 
+
+      </div>
+<!--===========================gameover=======================================-->
+      <div id="container">
+            <button id ="reset" class="btn btn-info" onClick="reset()">Reset</button>
+            <a href="../Home.html"><button id="close">Close</button></a>
+      </div>
+
+      <div id="win">
+        <button id ="reset" class="btn btn-info" onClick="reset()">Reset</button>
+        <a href="../Home.html"><button id="close">Close</button></a>
+  </div>
+
+
+</body>
+</html>
